@@ -1,0 +1,214 @@
+@media screen and (max-width: 1200px) {
+  #fx-main {
+    width: 70%;
+  }
+}
+@@media (max-width: 1200px) {
+    .fx-welcome-img {
+        width: 70%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+  .fx-feature.fx-feature-sm .fx-icon i {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+
+
+  }
+}
+@media screen and (max-width: 868px) {
+    #fxbanner {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    #fx-aside {
+        width: 270px;
+        -moz-transform: translateX(-270px);
+        -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        -o-transform: translateX(-270px);
+        transform: translateX(-270px);
+    }
+}
+@media screen and (max-width: 768px) {
+    #fx-aside #fx-logo {
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 768px) {
+    #fx-aside #fx-main-menu ul {
+        margin: 0 0 1em 0;
+        width: auto;
+    }
+}
+@media screen and (max-width: 900px) {
+  #fx-aside .fx-footer {
+    visibility: hidden;
+    bottom: 0;
+    width: auto;
+  }
+}
+@media screen and (max-width: 868px) {
+  #fx-main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner .heading-section {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fx-home .flexslider .slider-text > .slider-text-inner .btn {
+    width: 100%;
+  }
+}
+
+    @media screen and (max-width: 564px) {
+    	.fx-banner-title { font-size: 2.8em; }
+    }
+
+    @media screen and (max-width: 768px) {
+      .row-bottom-padded-md {
+        padding-bottom: 1em;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      #map {
+        height: 200px;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      .fx-feature .fx-icon i {
+        font-size: 40px;
+      }
+    }
+    @media screen and (max-width: 868px) {
+      .fx-heading {
+        margin-bottom: 1em;
+      }
+    }
+@media(max-width:767px){
+     .fx-welcome-img  {
+         display: none!important;
+     }
+ }
+ @media (min-width: 800px) {
+ 	.fx-welcome-boxes-container {
+ 		flex-direction: row;
+ 		-webkit-box-align: stretch;
+ 		-webkit-align-items: stretch;
+ 	    	-ms-flex-align: stretch;
+ 	        	align-items: stretch;
+ 		position: absolute;
+ 	    bottom: -93px;
+ 	    left: 0;
+ 	    right: 0;
+ 	}
+
+ 	.fx-welcome-box {
+ 		max-width: 200px;
+ 		width: 100%;
+ 	}
+
+ 	.fx-section-title {
+         margin-top: 15px;
+         margin-bottom: 10px;
+         font-size: 28px;
+         color: #228896;
+         font-weight: 600;
+     }
+
+ 	.fx-welcome-text {
+ 		background-color: rgba(255,255,255,0.9);
+ 		padding: 10px;
+         text-align: center;
+         color: black;
+ 	}
+
+ 	.fx-content-box-home {
+         margin-bottom: 126px;
+     }
+
+ 	.fx-flex {
+ 		-webkit-flex-flow: row;
+ 		    -ms-flex-flow: row;
+ 		        flex-flow: row;
+ 	}
+
+ 	.fx-box-pad { padding: 45px 40px; }
+ 	.fx-services-img { width: 300px; }
+ 	.fx-services { overflow: auto; }
+ 	.fx-services-img-container { float: left; }
+ 	.fx-services-description-container { margin-left: 300px; }
+
+}
+@media screen and (max-width: 868px) {
+  .fx-nav-toggle {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md {
+    padding-bottom: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-sm {
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-xxs-12 {
+    float: none;
+    width: 100%;
+  }
+}
+     @media (min-width: 992px) {
+     	.container-fluid { max-width: 992px; }
+     	.fx-sidebar {
+     		float: left;
+     		width: 280px;
+     		height: 511px;
+     	}
+
+     	.fx-sidebar.sticky {
+     		position: fixed;
+     		top: 20px;
+     	}
+
+     	.fx-main-content { margin-left: 290px; }
+     	.fx-welcome-box { max-width: 340px; }
+     	.fx-welcome-text {
+     		height: 270px;
+     		padding: 10px 10px 10px 10px;
+     	}
+
+     	.fx-box-pad { padding: 30px; }
+     	.fx-welcome-boxes-container { width: 688px; } /* Need to hard code width for IE */
+
+     }

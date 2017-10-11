@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 1200px) {
+    #fx-aside {
+        width: 30%;
+
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container-fluid { max-width: 1200px; }
+    .fx-sidebar {
+        height: 533px;
+        width: 350px;
+    }
+
+    .fx-nav-item-link { padding: 30px 60px; }
+    .fx-main-content { margin-left: 370px; }
+    .fx-welcome-box { max-width: 390px; }
+    .fx-welcome-text { padding: 20px; }
+    .fx-section-title { margin-bottom: 20px; }
+    .fx-box-pad { padding: 45px; }
+    .fx-welcome-boxes-container { width: 780px; } /* Need to hard code width for IE */
+}
+
+@media (min-width: 1400px) {
+    .container-fluid { max-width: 1400px; }
+    .fx-sidebar {
+        height: 600px;
+        width: 450px;
+    }
+
+    .fx-main-content { margin-left: 470px; }
+    .fx-welcome-box { max-width: 400px; }
+    .fx-section-title { margin-bottom: 30px; }
+    .fx-welcome-text { padding: 20px; }
+    .fx-welcome-boxes-container { width: 820px; } /* Need to hard code width for IE */
+
+}
