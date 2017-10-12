@@ -33,23 +33,17 @@
         <link rel="stylesheet" href="./css/flexslider.css">
         <!-- Theme style  -->
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/small.css">
-        <link rel="stylesheet" href="./css/large.css">
         <!-- Modernizr JS -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 
     </head>
 
     <body>
-
+        <div class="container-fluid">
+            <div class="row">
         <div id="fx-page">
-            <div class="container-fluid">
-                <div class="row">
-
-        <a href="#" class="js-fx-nav-toggle fx-nav-toggle"><i></i></a>
-
             <!-- Beginning of Sidebar -->
-            <!--Nav Sidebar -->
+        <a href="#" class="js-fx-nav-toggle fx-nav-toggle"><i></i></a>
             <!--Nav Sidebar -->
             <aside id="fx-aside" role="complementary" class="border js-fullheight">
 
@@ -93,6 +87,13 @@
             <!-- Beginning of Main Page -->
             <div id="fx-main">
                 <div id='fx-home' class="js-fullheight">
+                    <!--Beginning of Banner  -->
+                    <section id="fxbanner" class="fx-banner">
+                        <img class="img-responsive" src='./images/banner.jpg' alt='sorry, cannot find the image' />
+                        <a href="http://web.mit.edu/" target="_blank"><img class="MITlogo img-responsive" src='./images/MIT-logo.png' alt='sorry, cannot find the image'/></a>
+                    </section>
+                    <!-- End of Banner -->
+                    	<div class="overlay"></div>
                     <div class="fx-content-box fx-content-box-home">
                         <img src="./images/homeMain.jpg" alt="Image 1" class="fx-welcome-img" style="display:block;">
                         <div class="fx-welcome-boxes-container">
@@ -157,7 +158,6 @@
         <script src="js/jquery.waypoints.min.js"></script>
         <!-- Flexslider -->
         <script src="js/jquery.flexslider-min.js"></script>
-
 
         <!-- MAIN JS -->
         <script src="js/main.js"></script>

@@ -2,27 +2,48 @@
     DEMO STYLE
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+  /*background: whitesmoke;*/
+}
+a {
+  color: #228896;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #228896;
+  outline: none;
+  text-decoration: none !important;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
+p, li{
+  margin-bottom: 1.5em;
+  font-family: icomoon;
+}
+li{
+     margin-bottom: 0.3em;
+     font-family: Arial;
 }
 
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
 }
-
 .navbar {
     padding: 15px 10px;
     background: #fff;
@@ -44,11 +65,6 @@ a, a:hover, a:focus {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
-
-i, span {
-    display: inline-block;
-}
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -60,8 +76,7 @@ i, span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
-    color: #fff;
+    background: #f8f8f8;
     transition: all 0.3s;
 }
 
@@ -91,9 +106,14 @@ i, span {
 
 #sidebar.active ul li a i {
     margin-right:  0;
-    display: block;
     font-size: 1.8em;
     margin-bottom: 5px;
+    color: black;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 #sidebar.active ul ul a {
@@ -111,12 +131,39 @@ i, span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #f8f8f8;
 }
 
 #sidebar .sidebar-header strong {
     display: none;
     font-size: 1.8em;
+}
+#sidebar .fa-ul li{
+    display: inline-block;
+    align-items: flex-center;
+}
+#sidebar .fa-ul{
+    padding: 0, 0, 0, 0;
+    margin-left: 120px;
+
+}
+#sidebar #fx-logo {
+    text-align: center;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+
+#sidebar #fx-logo a {
+    color: #000;
+}
+
+#sidebar #fx-logo a span {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 #sidebar ul.components {
@@ -125,23 +172,65 @@ i, span {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    padding: 10px 10px;
+    letter-spacing: .2em;
+    font-family: "Roboto", Arial, sans-serif;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: black;
     background: #fff;
+}
+#sidebar ul li a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
 }
 #sidebar ul li a i {
     margin-right: 10px;
+    color: black;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#sidebar .fx-footer {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0px 20px;
+
 }
 
+#sidebar .fx-footer {
+     margin: 0 0;
+     line-height: 0px;
+}
+#sidebar  .fx-footer ul li a:hover, #fx-aside .fx-footer ul li a:active, #fx-aside .fx-footer ul li a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #228896;
+  width: 30%;
+}
 
 a[data-toggle="collapse"] {
     position: relative;
