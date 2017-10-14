@@ -79,7 +79,10 @@ h1, h2, h3, h4, h5, h6 {
     background: #f8f8f8;
     transition: all 0.3s;
 }
-
+#sidebar .social{
+    
+    background: #f8f8f8;
+}
 #sidebar.active {
     min-width: 80px;
     max-width: 80px;
@@ -95,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sidebar ul li a {
-    text-align: left;
+    text-align: center;
 }
 
 #sidebar.active ul li a {
@@ -114,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);
+    align-items: center;
 }
 
 #sidebar.active ul ul a {
@@ -329,9 +333,7 @@ a.article, a.article:hover {
         margin-right:  0;
         display: block;
     }
-#sidebar.social{
-    display: inline-block;
-}
+
     #sidebar ul ul a {
         padding: 10px !important;
     }
