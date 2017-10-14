@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #sidebar .fa-ul li{
     display: inline-block;
-    align-items: flex-center;
+    float:left;
 }
 #sidebar .fa-ul{
     padding: 0, 0, 0, 0;
