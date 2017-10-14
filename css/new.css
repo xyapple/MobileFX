@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sidebar {
-    min-width: 250px;
+    min-width: 300px;
     max-width: 250px;
     background: #f8f8f8;
     transition: all 0.3s;
@@ -144,7 +144,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #sidebar .fa-ul{
     padding: 0, 0, 0, 0;
-    margin-left: 120px;
 
 }
 #sidebar #fx-logo {
@@ -330,7 +329,9 @@ a.article, a.article:hover {
         margin-right:  0;
         display: block;
     }
-
+#sidebar.social{
+    display: inline-block;
+}
     #sidebar ul ul a {
         padding: 10px !important;
     }
