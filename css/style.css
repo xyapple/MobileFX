@@ -29,7 +29,7 @@ body.offcanvas #fx-aside {
   position: fixed;
 }
 body.offcanvas #fx-main, body.offcanvas .fx-nav-toggle {
-  top: 100;
+  top: 0;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
   -ms-transform: translateX(270px);
