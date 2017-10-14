@@ -11,6 +11,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.5);
+background: #f8f8f8;
   /*background: whitesmoke;*/
 }
 body.offcanvas {
@@ -78,7 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
+
 }
+
 #textbox{
     margin-left: 20px;
     margin-right: 20px;
@@ -100,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fxbanner {
-    width: 100%;
+    width: 60%;
     padding-left: 70px;
     margin-left: 100px;
     display: flex;
@@ -112,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
     #fxbanner {
-        display: none;
+        width: inherit;
     }
 }
 
@@ -321,23 +324,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 70%;
   }
 }
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
   #fx-main {
     width: 100%;
   }
 }
-#fx-main .fx-narrow-content {
-  position: relative;
-  width: 93%;
-  margin: 0 auto;
-  padding: 4em 0;
-  clear: both;
-}
-#fx-main .fx-narrow-content {
-    width: 100%;
-    padding: 4em 1em;
-}
-
 }
 /*Home Page CSS*/
 #fx-home {
@@ -959,7 +950,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
   .fx-nav-toggle {
     opacity: 1;
     visibility: visible;
