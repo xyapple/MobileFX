@@ -77,10 +77,10 @@
 
 	var burgerMenu = function() {
 
-		$('.js-fh5co-nav-toggle').on('click', function(event){
+		$('.js-fx-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
-
+			
 			if ($('body').hasClass('offcanvas')) {
 				$this.removeClass('active');
 				$('body').removeClass('offcanvas');	
@@ -98,13 +98,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#fh5co-aside, .js-fh5co-nav-toggle");
+	    var container = $("#fx-aside, .js-fx-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-fx-nav-toggle').removeClass('active');
 			
 	    	}
 	    	
@@ -115,7 +115,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-fx-nav-toggle').removeClass('active');
 			
 	    	}
 		});
@@ -124,7 +124,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#fh5co-hero .flexslider').flexslider({
+	  	$('#fx-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
