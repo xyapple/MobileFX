@@ -29,7 +29,7 @@
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
-			$(window).resize(function(){
+			$(window).resize(function(){		
 				$('.js-fullheight').css('height', $(window).height());
 			});
 		}
@@ -77,19 +77,22 @@
 
 	var burgerMenu = function() {
 
+
 		$('.js-fx-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
-			
+	
 			if ($('body').hasClass('offcanvas')) {
-				$this.removeClass('active');
+				$this.removeClass('active');				
 				$('body').removeClass('offcanvas');	
+
 			} else {
 				$this.addClass('active');
 				$('body').addClass('offcanvas');	
-			}
-		});
 
+			}
+
+		});
 
 
 	};
@@ -104,7 +107,7 @@
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fx-nav-toggle').removeClass('active');
+				$('.js-fx-nav-toggle').removeClass('active');
 			
 	    	}
 	    	

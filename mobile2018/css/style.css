@@ -297,6 +297,7 @@ figure figcaption {
   #fx-main .fx-narrow-content {
     width: 100%;
     padding: 4em 1em;
+    margin-top: 0px;
   }
 }
 
@@ -1205,9 +1206,13 @@ body.offcanvas #fx-main, body.offcanvas .fx-nav-toggle {
   top: 0;
 }
 
+
 @media screen and (max-width: 768px) {
+  #fx-aside #fx-logo {
+    margin-bottom: 1em;
+  }
   #fxbanner {
-    width: inherit;
+    display: none !important;
   }
 }
 
