@@ -1173,3 +1173,33 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*banner*/
+
+.fx-banner {
+  height: 200px;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+#fxbanner {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 150px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #fxbanner {
+    width: inherit;
+  }
+}
+
+.MITlogo {
+  margin-left: 50px;
+}
